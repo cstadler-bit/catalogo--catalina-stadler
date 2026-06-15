@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>catálogo — Catalina Stadler</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="section-home">
+
+<div id="logo" onclick="goHome()" title="inicio">
+  <svg width="235" height="86" viewBox="0 0 235 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_864_753)">
+<path d="M3.82607 3.93551C2.53326 4.1584 1.60244 5.24105 1.61537 6.49564L2.07431 42.5922C2.13249 47.203 2.21652 51.9284 3.85192 56.2208C6.59914 63.4172 13.4122 68.34 20.639 70.6008C27.8593 72.868 35.5516 72.868 43.108 72.8489C64.7755 72.7916 86.4364 72.7342 108.104 72.6833C121.879 72.6451 136.074 72.696 148.801 78.071C152.719 79.7268 156.455 81.873 160.547 83.0002C164.464 84.0829 168.568 84.1912 172.621 84.2931C179.829 84.4714 187.146 84.6433 194.14 82.8665C197.721 81.9558 201.302 80.4529 203.778 77.6571C205.491 75.7211 206.571 73.2883 208.219 71.295C212.123 66.5887 218.503 65.0921 224.418 63.8693C226.286 63.4808 228.328 62.9905 229.473 61.4238C230.203 60.424 230.436 59.1503 230.643 57.9275C232.31 48.0755 233.118 24.3083 233.377 15.1313C233.435 12.966 231.974 11.0491 229.848 10.495L207.101 4.62967C205.045 4.10109 202.918 3.94188 200.805 4.15841C191.91 5.07547 165.504 7.41907 139.538 5.96069C127.994 5.3111 116.455 4.66152 104.911 4.01193C90.8578 3.22224 76.805 2.42618 62.7522 1.63648C56.3916 1.27985 11.5571 2.58539 3.82607 3.92277V3.93551Z" stroke="#1C1C3C" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M203.947 4.01855C205.964 8.36186 205.964 12.7052 203.947 17.0548C214.425 18.5705 224.025 15.6219 233.475 11.9537" stroke="#1C1C3C" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M79.1527 38.1216L79.2044 40.981C79.4112 41.2421 79.4306 41.4842 79.4694 41.8026L79.644 43.3437L79.547 45.8084L79.4048 47.3814C79.3725 47.7316 79.1204 48.2475 78.9135 48.6041L78.474 49.3492C78.3511 49.5403 77.8017 49.6422 77.5625 49.7377C77.1876 49.8906 76.7481 50.0434 76.483 50.0052L75.6039 48.7251C75.3195 48.3048 75.3648 47.6807 75.4423 47.1585L75.6298 45.8975C75.6686 45.6428 75.9336 45.2352 75.8625 44.9104L75.6621 43.987L75.4876 41.8535L75.3454 38.7903L75.3906 35.6315L75.3066 31.7467C75.3066 31.7467 75.2549 31.078 75.2678 30.8743L75.326 29.6388C75.3324 29.4732 75.1514 29.1166 75.0739 28.951L74.7636 25.6903L74.4921 25.3464C74.421 25.2573 74.6214 25.028 74.7571 24.9134C74.4404 24.5185 74.3176 24.0791 74.5374 23.455C73.5613 23.2703 72.4947 23.3722 71.454 23.3276L69.7346 23.2512L68.8232 23.2384C68.0604 23.3594 67.4399 23.1875 66.7223 22.971L65.0417 22.7608C64.5504 22.8118 64.1432 22.7162 63.8329 22.4551C63.0831 22.4233 62.5143 22.2959 61.8485 22.0412C61.3831 21.8629 60.575 21.7673 60.3165 21.4171L60.0256 20.4745C59.9416 20.207 59.9416 19.6594 59.9545 19.3728L61.0275 18.9907C61.7256 18.7423 63.2706 18.8824 64.1626 19.1562C65.1451 19.4619 66.1988 19.4174 67.2589 19.4428C67.6208 19.6211 68.0604 19.7931 68.5258 19.7931L71.1373 19.8058L74.2594 19.8695C74.2594 19.8695 74.7248 19.6148 74.4275 19.8313H75.5587L77.1294 19.7931C78.2606 19.7676 79.4888 19.8313 80.5554 19.5957C81.0596 19.481 81.2018 19.5447 81.7448 19.5893L83.6193 19.7294C84.2528 19.774 85.0479 19.6848 85.6167 19.8504C86.0369 19.9714 86.4376 20.1561 86.8966 20.1561C87.6529 20.1625 88.3639 20.4618 88.5126 21.1114C88.9198 21.3852 89.1396 21.7992 88.9586 22.2322C88.9845 22.8054 88.7582 23.4486 88.2347 23.8052L87.3685 24.009L86.8772 23.8944L85.5392 23.7033C85.1255 23.646 84.8863 23.5505 84.5502 23.3913C83.671 22.9901 82.5075 23.3276 81.5444 23.2639C80.4778 23.1939 79.6246 23.2002 78.4934 23.3021C78.5192 24.0281 79.3466 24.3784 78.6743 25.1235C78.4934 25.9005 78.8941 26.3208 78.9458 27.085L79.0816 29.2121L79.185 32.5173L79.4242 32.823C79.4759 32.8867 79.185 33.065 79.1656 33.1478C79.0493 33.5936 79.282 34.2177 79.3466 34.6635L79.5405 36.02L79.4888 36.9434C79.463 37.3701 79.6763 37.7713 79.1398 38.1152L79.1527 38.1216Z" fill="#1C1C3C"/>
+<path d="M31.4154 41.5096C32.4109 40.3633 34.0011 39.2616 34.5893 39.7519L35.2292 40.2869L35.9209 41.2485C36.1665 41.7071 35.992 42.4967 35.4813 42.7961C35.2874 43.936 34.6862 44.8658 33.8071 45.6237C33.5098 46.2605 33.0832 46.7955 32.5725 47.2986C31.8679 48.152 30.7173 49.1518 29.6766 49.5467L29.2952 49.916C28.0412 50.1262 26.8001 50.1835 25.4879 50.158C24.8221 50.1644 24.2404 49.9861 23.7685 49.5594C22.8958 49.4511 22.1848 48.9799 21.5513 48.394C21.073 48.3494 20.7045 48.1583 20.433 47.8272C18.2482 46.1714 14.8417 42.0701 14.0401 39.8666L13.3743 38.0197C13.1804 37.4784 13.0317 36.9816 12.896 36.3639L12.618 35.1093L12.4629 31.4729L12.6051 28.6135C12.618 28.3014 12.8507 26.7793 12.8507 26.7793C13.2256 26.5119 13.1481 25.754 13.2063 25.2254L13.7363 24.0855C13.9884 23.5441 14.1371 23.1302 14.2793 22.5124L14.874 21.2579L15.3717 20.1943L18.009 17.596C18.2676 17.4559 18.7912 17.2457 18.9916 16.991C19.3536 16.5452 19.7802 16.507 20.2262 16.2522L21.1312 15.73C22.4304 14.9849 23.8073 14.5327 25.3069 14.5837C25.5396 14.5901 25.9598 14.3481 26.1343 14.2589L29.1336 14.2271C29.2952 14.2271 29.6831 14.4054 29.8124 14.4499L31.674 15.0804C32.0425 15.2078 32.2881 15.4307 32.566 15.6536C33.917 16.749 34.4794 17.8443 34.2144 19.5893L33.387 20.3026L31.8809 20.3917C31.5577 20.0542 31.2474 19.8313 30.8466 19.6339L29.3017 18.8888C28.4161 18.4621 26.3541 18.6531 24.9837 19.0544C24.4343 19.2136 23.6909 19.2327 23.232 19.5384C22.424 20.0733 22.0361 19.8695 21.2346 20.6083L20.4654 21.3215L18.3775 23.4614L17.8345 24.665L17.4596 25.8941C17.0459 26.5373 16.9683 27.0914 16.8326 27.8429L16.6257 29.0147C16.225 31.2819 16.1732 33.5427 16.6774 35.8226L17.0588 36.9816L18.552 39.4654L19.638 40.9747L22.7795 44.1335L23.413 44.1589C23.5616 44.1589 23.6069 44.5601 23.6521 44.7002L24.4537 44.955C25.2488 45.4326 26.7872 45.8784 26.91 45.8084L27.899 45.2607L29.9093 43.2419L30.6462 42.363L31.3961 41.4969L31.4154 41.5096Z" fill="#1C1C3C"/>
+<path d="M102.269 24.1492L100.679 24.3339L99.5798 24.4167C98.8817 23.6907 97.7505 24.5186 97.5501 22.8501L97.3561 21.1942C97.3368 21.0414 97.4272 20.672 97.5436 20.602C97.6599 20.5319 97.9444 20.5064 98.1254 20.4873L100.317 20.2199L101.642 20.0288L103.827 19.6149C103.859 19.4493 104.492 19.5193 104.492 19.5193L107.86 19.029C108.3 18.2011 109.244 18.9016 110.187 19.6785C110.336 20.118 110.413 20.9395 110.439 21.4554L109.993 22.1368L108.959 22.5889L107.828 23.022L105.43 23.6461L102.256 24.1492H102.269Z" fill="#1C1C3C"/>
+<path d="M60.885 36.4216C59.715 27.5439 57.4978 21.0226 52.973 19.6852C49.7086 19.7871 45.8625 19.6215 44.7378 20.7105C39.7023 21.22 42.3396 28.7412 44.7378 24.6462C49.4501 22.4809 53.0053 23.0987 54.8088 27.9515C54.4145 28.9641 53.9943 29.9321 53.2121 30.3906C50.0448 27.7986 46.2568 28.4801 42.3396 29.8365C38.2285 32.9571 38.5323 37.7335 39.7023 42.8282C39.8768 45.433 43.4967 46.5984 47.2588 47.7129C50.9303 47.6428 53.1087 46.1016 55.2095 44.4841L56.1662 49.2031C56.5088 49.9546 57.3168 50.1456 58.4868 49.91C60.1481 49.2095 59.5017 45.019 58.4868 37.708C59.3401 38.192 60.1351 37.708 60.885 36.4088V36.4216ZM50.3357 43.6689C46.3603 44.5414 44.6473 43.0066 43.3803 40.9941C42.4625 38.2111 42.1651 35.5745 43.3803 33.2755C44.7055 32.1101 46.8257 31.7216 49.4178 31.7789L53.9749 34.1034C54.8217 37.5679 54.2141 40.8413 50.3357 43.6689Z" fill="#1C1C3C"/>
+<path d="M79.1527 38.1216L79.2044 40.981C79.4112 41.2421 79.4306 41.4842 79.4694 41.8026L79.644 43.3437L79.547 45.8084L79.4048 47.3814C79.3725 47.7316 79.1204 48.2475 78.9135 48.6041L78.474 49.3492C78.3511 49.5403 77.8017 49.6422 77.5625 49.7377C77.1876 49.8906 76.7481 50.0434 76.483 50.0052L75.6039 48.7251C75.3195 48.3048 75.3648 47.6807 75.4423 47.1585L75.6298 45.8975C75.6686 45.6428 75.9336 45.2352 75.8625 44.9104L75.6621 43.987L75.4876 41.8535L75.3454 38.7903L75.3906 35.6315L75.3066 31.7467C75.3066 31.7467 75.2549 31.078 75.2678 30.8743L75.326 29.6388C75.3324 29.4732 75.1514 29.1166 75.0739 28.951L74.7636 25.6903L74.4921 25.3464C74.421 25.2573 74.6214 25.028 74.7571 24.9134C74.4404 24.5185 74.3176 24.0791 74.5374 23.455C73.5613 23.2703 72.4947 23.3722 71.454 23.3276L69.7346 23.2512L68.8232 23.2384C68.0604 23.3594 67.4399 23.1875 66.7223 22.971L65.0417 22.7608C64.5504 22.8118 64.1432 22.7162 63.8329 22.4551C63.0831 22.4233 62.5143 22.2959 61.8485 22.0412C61.3831 21.8629 60.575 21.7673 60.3165 21.4171L60.0256 20.4745C59.9416 20.207 59.9416 19.6594 59.9545 19.3728L61.0275 18.9907C61.7256 18.7423 63.2706 18.8824 64.1626 19.1562C65.1451 19.4619 66.1988 19.4174 67.2589 19.4428C67.6208 19.6211 68.0604 19.7931 68.5258 19.7931L71.1373 19.8058L74.2594 19.8695C74.2594 19.8695 74.7248 19.6148 74.4275 19.8313H75.5587L77.1294 19.7931C78.2606 19.7676 79.4888 19.8313 80.5554 19.5957C81.0596 19.481 81.2018 19.5447 81.7448 19.5893L83.6193 19.7294C84.2528 19.774 85.0479 19.6848 85.6167 19.8504C86.0369 19.9714 86.4376 20.1561 86.8966 20.1561C87.6529 20.1625 88.3639 20.4618 88.5126 21.1114C88.9198 21.3852 89.1396 21.7992 88.9586 22.2322C88.9845 22.8054 88.7582 23.4486 88.2347 23.8052L87.3685 24.009L86.8772 23.8944L85.5392 23.7033C85.1255 23.646 84.8863 23.5505 84.5502 23.3913C83.671 22.9901 82.5075 23.3276 81.5444 23.2639C80.4778 23.1939 79.6246 23.2002 78.4934 23.3021C78.5192 24.0281 79.3466 24.3784 78.6743 25.1235C78.4934 25.9005 78.8941 26.3208 78.9458 27.085L79.0816 29.2121L79.185 32.5173L79.4242 32.823C79.4759 32.8867 79.185 33.065 79.1656 33.1478C79.0493 33.5936 79.282 34.2177 79.3466 34.6635L79.5405 36.02L79.4888 36.9434C79.463 37.3701 79.6763 37.7713 79.1398 38.1152L79.1527 38.1216Z" fill="#1C1C3C"/>
+<path d="M31.4154 41.5096C32.4109 40.3633 34.0011 39.2616 34.5893 39.7519L35.2292 40.2869L35.9209 41.2485C36.1665 41.7071 35.992 42.4967 35.4813 42.7961C35.2874 43.936 34.6862 44.8658 33.8071 45.6237C33.5098 46.2605 33.0832 46.7955 32.5725 47.2986C31.8679 48.152 30.7173 49.1518 29.6766 49.5467L29.2952 49.916C28.0412 50.1262 26.8001 50.1835 25.4879 50.158C24.8221 50.1644 24.2404 49.9861 23.7685 49.5594C22.8958 49.4511 22.1848 48.9799 21.5513 48.394C21.073 48.3494 20.7045 48.1583 20.433 47.8272C18.2482 46.1714 14.8417 42.0701 14.0401 39.8666L13.3743 38.0197C13.1804 37.4784 13.0317 36.9816 12.896 36.3639L12.618 35.1093L12.4629 31.4729L12.6051 28.6135C12.618 28.3014 12.8507 26.7793 12.8507 26.7793C13.2256 26.5119 13.1481 25.754 13.2063 25.2254L13.7363 24.0855C13.9884 23.5441 14.1371 23.1302 14.2793 22.5124L14.874 21.2579L15.3717 20.1943L18.009 17.596C18.2676 17.4559 18.7912 17.2457 18.9916 16.991C19.3536 16.5452 19.7802 16.507 20.2262 16.2522L21.1312 15.73C22.4304 14.9849 23.8073 14.5327 25.3069 14.5837C25.5396 14.5901 25.9598 14.3481 26.1343 14.2589L29.1336 14.2271C29.2952 14.2271 29.6831 14.4054 29.8124 14.4499L31.674 15.0804C32.0425 15.2078 32.2881 15.4307 32.566 15.6536C33.917 16.749 34.4794 17.8443 34.2144 19.5893L33.387 20.3026L31.8809 20.3917C31.5577 20.0542 31.2474 19.8313 30.8466 19.6339L29.3017 18.8888C28.4161 18.4621 26.3541 18.6531 24.9837 19.0544C24.4343 19.2136 23.6909 19.2327 23.232 19.5384C22.424 20.0733 22.0361 19.8695 21.2346 20.6083L20.4654 21.3215L18.3775 23.4614L17.8345 24.665L17.4596 25.8941C17.0459 26.5373 16.9683 27.0914 16.8326 27.8429L16.6257 29.0147C16.225 31.2819 16.1732 33.5427 16.6774 35.8226L17.0588 36.9816L18.552 39.4654L19.638 40.9747L22.7795 44.1335L23.413 44.1589C23.5616 44.1589 23.6069 44.5601 23.6521 44.7002L24.4537 44.955C25.2488 45.4326 26.7872 45.8784 26.91 45.8084L27.899 45.2607L29.9093 43.2419L30.6462 42.363L31.3961 41.4969L31.4154 41.5096Z" fill="#1C1C3C"/>
+<path d="M102.269 24.1492L100.679 24.3339L99.5798 24.4167C98.8817 23.6907 97.7505 24.5186 97.5501 22.8501L97.3561 21.1942C97.3368 21.0414 97.4272 20.672 97.5436 20.602C97.6599 20.5319 97.9444 20.5064 98.1254 20.4873L100.317 20.2199L101.642 20.0288L103.827 19.6149C103.859 19.4493 104.492 19.5193 104.492 19.5193L107.86 19.029C108.3 18.2011 109.244 18.9016 110.187 19.6785C110.336 20.118 110.413 20.9395 110.439 21.4554L109.993 22.1368L108.959 22.5889L107.828 23.022L105.43 23.6461L102.256 24.1492H102.269Z" fill="#1C1C3C"/>
+<path d="M60.885 36.4216C59.715 27.5439 57.4978 21.0226 52.973 19.6852C49.7086 19.7871 45.8625 19.6215 44.7378 20.7105C39.7023 21.22 42.3396 28.7412 44.7378 24.6462C49.4501 22.4809 53.0053 23.0987 54.8088 27.9515C54.4145 28.9641 53.9943 29.9321 53.2121 30.3906C50.0448 27.7986 46.2568 28.4801 42.3396 29.8365C38.2285 32.9571 38.5323 37.7335 39.7023 42.8282C39.8768 45.433 43.4967 46.5984 47.2588 47.7129C50.9303 47.6428 53.1087 46.1016 55.2095 44.4841L56.1662 49.2031C56.5088 49.9546 57.3168 50.1456 58.4868 49.91C60.1481 49.2095 59.5017 45.019 58.4868 37.708C59.3401 38.192 60.1351 37.708 60.885 36.4088V36.4216ZM50.3357 43.6689C46.3603 44.5414 44.6473 43.0066 43.3803 40.9941C42.4625 38.2111 42.1651 35.5745 43.3803 33.2755C44.7055 32.1101 46.8257 31.7216 49.4178 31.7789L53.9749 34.1034C54.8217 37.5679 54.2141 40.8413 50.3357 43.6689Z" fill="#1C1C3C"/>
+<path d="M165.162 23.8371L165.175 26.3145C164.451 27.6773 163.507 28.8427 162.531 30.0273L161.704 31.0271L159.125 33.4981L157.69 34.7081C157.405 34.9438 156.481 35.2622 156.461 35.6379L156.345 38.1662L155.854 42.5668L155.453 44.8149L154.826 47.2604C154.593 48.1711 153.643 49.2283 153.023 49.9288C152.234 50.8204 151.271 50.7949 150.256 50.9669C149.345 51.1197 148.627 51.1515 147.722 51.0051L143.52 50.3364L141.071 48.1138C139.325 45.9676 136.455 39.9557 136.488 37.351L136.539 33.479L136.714 31.6321C136.766 30.0719 137.283 28.588 138.44 27.5245L138.498 27.0214C138.511 26.9131 138.731 26.9258 138.892 26.9004L140.321 26.5565C141.193 25.9833 142.053 25.4993 143.036 25.0853C144.283 24.5568 145.673 24.7287 147.017 24.7478C147.948 24.7669 148.789 24.9261 149.732 25.1618L150.792 25.4356L152.926 26.9959C154.218 27.9384 154.858 29.3777 155.737 30.7788C156.242 30.5813 156.63 30.2438 156.979 29.8617L161.536 24.9134L162.311 24.0154C162.809 23.4423 163.346 22.9137 164.167 22.8564C164.755 22.8182 165.156 23.3022 165.156 23.8435L165.162 23.8371ZM151.588 42.9999C152.124 41.2613 152.344 39.5354 152.195 37.8032C150.566 38.37 149.261 38.8986 147.729 38.6757L145.091 38.2872C144.264 38.0134 143.359 37.5294 142.654 37.1027L141.368 36.3257C141.116 36.1729 140.877 35.7717 140.515 35.3322L140.663 37.5357C140.728 38.4655 141.045 39.2106 141.536 40.0258L141.982 41.6816L143.197 43.8405C143.572 44.5092 143.895 45.3881 144.471 45.8657L145.466 46.6872C146.714 47.4069 148.368 47.6935 149.687 47.184C150.573 46.8401 150.754 45.6874 150.98 44.9486L151.588 42.9871V42.9999ZM150.67 29.6133L149.752 28.7408C149.248 28.2632 148.304 28.0531 147.593 28.0785L145.873 28.1486C145.324 28.1741 144.846 28.1358 144.348 28.5434C143.456 29.2694 142.861 30.6896 143.307 31.7531C144.283 34.0904 146.571 35.4787 148.899 34.8546C149.946 34.5744 150.831 34.0203 151.827 33.4981C151.917 33.0969 151.95 32.3008 151.781 31.9442L150.676 29.6133H150.67Z" fill="#1C1C3C"/>
+<path d="M185.621 31.0397L185.31 28.5623C185.123 27.0403 184.871 26.034 183.752 25.0214C182.621 24.0025 181.464 23.2956 179.997 22.767C179.299 22.5186 178.639 22.2002 177.851 22.0601L176.274 21.7863C174.845 21.5379 173.423 22.3722 172.072 22.8689C170.281 23.5248 168.51 26.1614 167.844 28.2248L167.12 30.4601L166.784 33.5297C166.59 35.3002 166.131 37.2426 166.733 39.0321C167.515 41.3566 169.001 43.4073 170.43 45.4643C171.361 46.8017 173.52 48.7695 175.136 49.3809C176.332 49.8267 177.715 49.4955 178.956 49.0115L179.137 57.9338C179.195 60.8569 179.215 63.6145 178.795 66.493L178.575 68.0214L178.193 70.3714C178.045 71.2948 177.295 71.9699 176.564 72.3011C176.564 72.3011 174.134 73.9314 172.738 74.4409C171.904 73.855 171.07 74.1225 170.107 74.5746C169.228 75.6063 169.706 76.9437 170.714 77.8735C171.238 78.3575 171.652 78.4912 172.427 78.5358C173.242 78.5804 174.05 78.6759 174.748 78.2811L176.998 77.0137L178.452 76.1795C179.299 76.2113 179.577 75.8101 180.042 75.2624C181.471 73.5748 182.479 71.7852 182.88 69.5881C183.1 68.3972 182.99 67.4865 183.145 65.7097L183.604 60.4812L183.468 58.5706L183.384 50.54L183.216 47.3111C183.164 46.324 182.97 45.6362 183.804 44.872L184.476 42.885L185.129 38.3443L185.414 36.5866L185.918 33.4533C186.015 32.8419 185.718 31.7211 185.627 31.0333L185.621 31.0397ZM176.403 45.0822C176.067 44.9866 175.569 44.6364 175.31 44.2925L174.224 42.8532C173.255 41.5731 172.511 40.1912 171.729 38.7837C171.219 37.8539 170.967 36.9305 171.076 35.816L171.309 33.517L172.143 29.6641C172.389 28.5368 173.119 27.7153 173.992 27.053C174.076 26.9575 174.224 26.6581 174.334 26.6709C174.334 26.6709 179.357 26.6199 180.087 27.002C180.43 27.1804 181.063 27.779 181.115 28.1356L181.393 30.7212C182.893 32.3579 179.098 45.8719 176.409 45.0822H176.403Z" fill="#1C1C3C"/>
+<path d="M128.685 49.0181C129.771 48.7569 130.909 48.7824 131.969 48.9926L134.089 49.6103L133.766 51.5145L132.512 52.6927L129.079 52.9092C128.336 52.9538 127.386 52.5271 126.675 52.3742C124.458 51.8966 123.068 50.2472 123.139 48.1519C123.191 46.6808 122.46 45.1142 122.344 43.573L122.059 39.9048L121.788 36.4467L121.284 34.0903L120.792 28.3269L120.185 23.6014L120.036 19.6912L119.629 16.0166L121.232 15.3097L121.697 15.1377C121.885 15.0677 123.423 16.0803 124.186 16.8508L124.438 18.3538L124.742 20.5318L125.001 23.6205L125.75 31.562L126.112 34.1222L126.468 35.8289L126.83 38.9813L126.927 40.8091C126.991 42.0446 127.063 43.1463 127.198 44.299L127.547 47.1648C127.638 47.9036 127.606 48.7124 128.691 49.0053L128.685 49.0181Z" fill="#1C1C3C"/>
+<path d="M97.9209 27.7144C101.257 26.5269 105.38 27.4721 108.38 28.6841V28.6851C108.567 28.7648 108.685 28.9139 108.717 29.0864L108.718 29.0874C109.419 32.8197 109.659 39.1372 109.743 46.3169L109.749 46.811H109.905C110.448 48.2805 110.559 49.4648 110.438 50.3022C110.303 51.2303 109.919 51.6061 109.66 51.6821C109.448 51.7442 109.014 51.6742 108.552 50.8872C108.1 50.1181 107.718 48.7843 107.659 46.7554L107.634 45.8608L106.886 46.3521C104.32 48.0348 102.111 48.7543 100.255 48.8403C98.4059 48.926 96.8764 48.3846 95.6533 47.4878C93.1835 45.6767 91.9305 42.3877 91.958 39.8276V39.8228C91.9644 35.9698 92.6495 33.2302 93.7266 31.3169C94.7975 29.4144 96.2715 28.3014 97.9209 27.7144ZM106.441 32.8374C104.772 30.7566 101.717 29.5355 99.0801 30.2661C97.6992 30.6488 96.4574 31.5625 95.6172 33.1187C94.783 34.6639 94.3576 36.8161 94.5342 39.6743L94.5361 39.6997C95.0336 44.0662 98.8254 46.4358 102.173 45.6245C103.855 45.2167 105.373 44.0137 106.269 41.9536C107.159 39.9043 107.427 37.0279 106.688 33.2427L106.666 33.1323L106.599 33.0415L106.441 32.8374Z" fill="#1C1C3C" stroke="#1C1C3C"/>
+<path d="M200.056 24.1617C194.116 25.168 190.936 33.5743 190.936 40.2676C190.936 46.9609 195.809 53.3358 201.821 53.3358C207.833 53.3358 214.975 47.4385 214.975 40.7389C214.975 34.0393 209.268 22.5951 200.05 24.1617H200.056ZM201.537 48.7313C197.522 48.7313 194.271 44.1206 194.271 39.2741C195.034 33.3642 195.997 31.7784 200.36 27.6198C206.507 26.4926 210.321 34.7716 210.321 39.618C210.321 44.4645 205.551 48.7313 201.537 48.7313Z" fill="#1C1C3C"/>
+</g>
+<defs>
+<clipPath id="clip0_864_753">
+<rect width="235" height="86" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+</div>
+
+<button id="hamburger" onclick="toggleMobileMenu()" aria-label="menú">
+  <svg width="110" height="92" viewBox="0 0 110 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 6C0 2.68629 2.68629 0 6 0H35.5852C43.2238 0 49.6425 5.74032 50.4921 13.3316L52 26.8038L0 26V6Z" fill="#1C1C3C"/>
+<path d="M3 16C3 14.3431 4.34315 13 6 13H49V24H3V16Z" fill="white"/>
+<rect y="17" width="110" height="75" rx="6" fill="#1C1C3C"/>
+<path d="M41 26C41 16.6112 48.6112 9 58 9H103C106.866 9 110 12.134 110 16V73C110 79.0751 105.075 84 99 84H52C45.9249 84 41 79.0751 41 73V26Z" fill="#1C1C3C"/>
+</svg>
+
+</button>
+
+<a href="#contacto" class="contact-link" id="contact-link">contacto</a>
+
+<aside id="sidebar">
+  
+  <div class="sb-logo" onclick="goHome()" title="volver al inicio">
+    <svg viewBox="0 0 37 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0.75002 3.36311C0.748068 2.6966 0.888637 2.12144 1.08387 2.00302V1.99626C2.25137 1.28576 9.02211 0.592188 9.98267 0.781653C12.1049 1.20118 14.2271 1.62409 16.3493 2.04362L21.5786 3.07891C25.4999 3.85369 29.4876 2.60864 30.8308 2.12144C31.15 2.00641 31.4712 2.09099 31.7816 2.3718L35.2168 5.48782C35.5379 5.78217 35.7585 6.80054 35.7497 7.95087C35.7107 12.8262 35.5887 25.4527 35.3368 30.6866C36.0352 41.3516 18.9117 38.5055 16.8315 38.5258C13.5718 38.5527 10.313 38.583 7.05323 38.6134L7.01608 38.6137C5.87493 38.6239 4.71328 38.6239 3.6229 37.4194C2.53154 36.2183 1.50265 33.6031 1.08778 29.7799C0.840804 27.4996 0.828114 24.9892 0.819328 22.5397L0.75002 3.36311Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
+      <path d="M31.75 1.75C32.0232 4.01166 32.0232 6.27332 31.75 8.53829C33.1694 9.32755 34.4698 7.79215 35.75 5.882" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
+      <path d="M22.3275 26.0353C22.8943 25.3973 23.7998 24.7841 24.1348 25.0571L24.4992 25.3548L24.8931 25.89C25.0329 26.1452 24.9336 26.5846 24.6428 26.7512C24.5323 27.3857 24.19 27.9031 23.6894 28.3249C23.5201 28.6793 23.2772 28.977 22.9864 29.257C22.5852 29.732 21.93 30.2884 21.3373 30.5082L21.1202 30.7137C20.4061 30.8307 19.6993 30.8626 18.9521 30.8484C18.573 30.852 18.2417 30.7527 17.973 30.5153C17.4761 30.455 17.0712 30.1927 16.7105 29.8667C16.4381 29.8418 16.2283 29.7355 16.0737 29.5512C14.8295 28.6297 12.8897 26.3472 12.4333 25.1209L12.0542 24.093C11.9437 23.7917 11.8591 23.5153 11.7818 23.1715L11.6235 22.4733L11.5352 20.4495L11.6161 18.8581C11.6235 18.6844 11.756 17.8373 11.756 17.8373C11.9695 17.6885 11.9253 17.2667 11.9585 16.9725L12.2603 16.3381C12.4038 16.0369 12.4885 15.8065 12.5695 15.4627L12.9081 14.7645L13.1916 14.1726L14.6933 12.7265C14.8406 12.6485 15.1387 12.5316 15.2528 12.3898C15.459 12.1417 15.7019 12.1204 15.9559 11.9786L16.4712 11.688C17.2111 11.2733 17.9951 11.0217 18.8491 11.05C18.9816 11.0536 19.2208 10.9189 19.3202 10.8693L21.0281 10.8516C21.1202 10.8516 21.341 10.9508 21.4146 10.9756L22.4747 11.3265C22.6845 11.3974 22.8244 11.5214 22.9827 11.6455C23.752 12.2551 24.0722 12.8647 23.9213 13.8359L23.4502 14.2328L22.5925 14.2824C22.4085 14.0946 22.2318 13.9705 22.0036 13.8607L21.1238 13.446C20.6196 13.2085 19.4454 13.3148 18.665 13.5381C18.3521 13.6267 17.9288 13.6374 17.6675 13.8075C17.2074 14.1052 16.9865 13.9918 16.5301 14.4029L16.0921 14.7999L14.9032 15.9908L14.594 16.6606L14.3805 17.3447C14.1449 17.7027 14.1007 18.011 14.0234 18.4292L13.9056 19.0814C13.6774 20.3432 13.648 21.6014 13.9351 22.8702L14.1523 23.5153L15.0025 24.8976L15.6209 25.7376L17.4098 27.4955L17.7706 27.5097C17.8552 27.5097 17.881 27.733 17.9068 27.811L18.3632 27.9527C18.8159 28.2186 19.692 28.4667 19.7619 28.4277L20.3251 28.1229L21.4698 26.9993L21.8895 26.5102L22.3164 26.0282L22.3275 26.0353Z" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <div class="sb-tabs">
+    <button class="sb-tab" data-section="audiovisuales" onclick="showSection('audiovisuales')">
+      <span>Audiovisuales</span>
+    </button>
+    <button class="sb-tab" data-section="ux" onclick="showSection('ux')">
+      <span>Diseño UX/UI</span>
+    </button>
+    <button class="sb-tab" data-section="editorial" onclick="showSection('editorial')">
+      <span>Diseño Editorial</span>
+    </button>
+    <button class="sb-tab sb-tab--multi" data-section="archivo" onclick="showSection('archivo')">
+      <span>Archivo<br>experimental</span>
+    </button>
+    
+    <button class="sb-tab sb-tab--contact" onclick="goToContact()">
+      <span>
+        <svg class="sb-tab-icon" width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true">
+          <rect x="0.5" y="0.5" width="17" height="13" rx="1.5" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M1 1.5L9 8L17 1.5" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Contacto
+      </span>
+    </button>
+  </div>
+</aside>
+
+<main>
+  <section class="section active" id="home">
+    <div class="home-hero">
+      <div class="home-bio">
+        <h1>¡HOLA!</h1>
+        <p>soy <strong>Catalina Stadler</strong>, aunque todos me conocen como cata.</p>
+        <p>me especializo en <strong>diseño visual, interactivo y audiovisual</strong> con una mirada que busca conectar lenguajes distintos y transformarlos en propuestas coherentes.</p>
+        <p>explorar diferentes técnicas y formatos no es un método para mí: es <em>la forma en que pienso.</em></p>
+      </div>
+      <div class="home-photo">
+        <img src="assets/img/cata-home.png" alt="Cata Stadler" />
+      </div>
+    </div>
+
+<section class="que-hago" aria-label="qué hago">
+      <h2 class="qh-title">¿qué hago?</h2>
+
+      <div class="qh-stack">
+        <article class="qh-card" data-color="navy" data-card-idx="0" style="--i: 0">
+          <div class="qh-content">
+            <h3 class="qh-num">01 / Dirección creativa</h3>
+            <p class="qh-desc">Pienso proyectos desde la imagen: videoclips, videos para redes, fotografía y campañas. Me interesa construir una mirada coherente — desde el concepto hasta cómo se ve en pantalla. Trabajo lo visual como un lenguaje narrativo, no como decoración.</p>
+            <div class="qh-tags">
+              <span class="qh-tag">videoclips</span>
+              <span class="qh-tag">videos para redes</span>
+              <span class="qh-tag">fotografía</span>
+              <span class="qh-tag">dirección de arte</span>
+              <span class="qh-tag">campañas</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="qh-card" data-color="celeste" data-card-idx="1" style="--i: 1">
+          <div class="qh-content">
+            <h3 class="qh-num">02 / Diseño digital</h3>
+            <p class="qh-desc">Diseño interfaces para web y mobile, identidades para redes y experiencias digitales pensadas desde el usuario. Trabajo con Figma, prototipado y sistemas de diseño. Me importa que cada interfaz tenga personalidad sin perder claridad.</p>
+            <div class="qh-tags">
+              <span class="qh-tag">UX/UI apps</span>
+              <span class="qh-tag">sitios web</span>
+              <span class="qh-tag">redes sociales</span>
+              <span class="qh-tag">sistemas de diseño</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="qh-card" data-color="brown" data-card-idx="2" style="--i: 2">
+          <div class="qh-content">
+            <h3 class="qh-num">03 / Diseño gráfico y editorial</h3>
+            <p class="qh-desc">Trabajo lo gráfico desde la tipografía y la composición: libros, afiches, motion graphics, publicaciones. Me interesa la pieza editorial como objeto y como sistema — donde la tipografía no es un detalle sino el motor.</p>
+            <div class="qh-tags">
+              <span class="qh-tag">editorial</span>
+              <span class="qh-tag">afiches</span>
+              <span class="qh-tag">motion graphics</span>
+              <span class="qh-tag">libros</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="qh-card" data-color="sand" data-card-idx="3" style="--i: 3">
+          <div class="qh-content">
+            <h3 class="qh-num">04 / Exploración</h3>
+            <p class="qh-desc"><strong class="qh-emph">Y lo que más me identifica.</strong> No me quedo en un solo lugar. Pruebo IA generativa, modelado 3D, motores de videojuegos, técnicas analógicas y todo lo que aparezca. Me gusta aprender y estoy abierta a propuestas que me desafíen — entender cómo piensa cada herramienta es parte del trabajo.</p>
+            <div class="qh-tags">
+              <span class="qh-tag">3D</span>
+              <span class="qh-tag">IA</span>
+              <span class="qh-tag">videojuegos</span>
+              <span class="qh-tag">mix media experimental</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+<section class="mi-proceso" aria-label="mi proceso">
+      <h2 class="qh-title">mi proceso</h2>
+
+      <div class="proc-grid">
+        <article class="proc-card" data-color="navy">
+          <div class="proc-card-inner">
+            <div class="proc-card-face proc-card-front">
+              <div class="proc-card-header">
+                <span class="proc-num">01</span>
+                <span class="proc-title">Escuchar y destilar</span>
+              </div>
+            </div>
+            <div class="proc-card-face proc-card-back">
+              <div class="proc-card-header">
+                <span class="proc-num">01</span>
+                <span class="proc-title">Escuchar y destilar</span>
+              </div>
+              <p class="proc-desc">Empiezo preguntando mucho y anotando más. Importa lo que está dicho y lo que no: el tono, la duda, lo que entusiasma. Esa primera materia prima es la que guía todo lo que viene.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="proc-card" data-color="sand">
+          <div class="proc-card-inner">
+            <div class="proc-card-face proc-card-front">
+              <div class="proc-card-header">
+                <span class="proc-num">02</span>
+                <span class="proc-title">Investigar y explorar</span>
+              </div>
+            </div>
+            <div class="proc-card-face proc-card-back">
+              <div class="proc-card-header">
+                <span class="proc-num">02</span>
+                <span class="proc-title">Investigar y explorar</span>
+              </div>
+              <p class="proc-desc">Me gusta construir universos visuales que salgan de varios soportes. Junto fotos, tipografías, bocetos a mano, referencias y piezas de otras disciplinas. El moodboard no es decorativo: es un motor visual que presta la reflexión.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="proc-card" data-color="celeste">
+          <div class="proc-card-inner">
+            <div class="proc-card-face proc-card-front">
+              <div class="proc-card-header">
+                <span class="proc-num">03</span>
+                <span class="proc-title">Construir y refinar</span>
+              </div>
+            </div>
+            <div class="proc-card-face proc-card-back">
+              <div class="proc-card-header">
+                <span class="proc-num">03</span>
+                <span class="proc-title">Construir y refinar</span>
+              </div>
+              <p class="proc-desc">Organizo y traspaso los archivos con criterio. Cada decisión de composición, tipografía y color responde a algo. Presento versiones con explicaciones, no con opciones ambiguas.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="proc-card" data-color="brown">
+          <div class="proc-card-inner">
+            <div class="proc-card-face proc-card-front">
+              <div class="proc-card-header">
+                <span class="proc-num">04</span>
+                <span class="proc-title">Concluir y documentar</span>
+              </div>
+            </div>
+            <div class="proc-card-face proc-card-back">
+              <div class="proc-card-header">
+                <span class="proc-num">04</span>
+                <span class="proc-title">Concluir y documentar</span>
+              </div>
+              <p class="proc-desc">El resultado final también forma parte del archivo del proceso. Me interesa documentar decisiones, recorridos y contextos: forma parte de construir proyectos con identidad y continuidad.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<section class="home-bottom" aria-label="confiaron en mí y educación">
+      
+      <div class="hb-col">
+        <h2 class="hb-title">quienes confiaron en mí</h2>
+        <div class="accordion">
+          <details class="acc-item" open>
+            <summary>
+              <span class="acc-label">Community Manager &amp; Diseño Gráfico</span>
+              <span class="acc-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="acc-body">
+              <p class="acc-client">CeroKO Group</p>
+              <p class="acc-desc">Manejo de cuentas de Instagram, contenido diario y creación de afiches promocionales para eventos deportivos.</p>
+            </div>
+          </details>
+
+          <details class="acc-item">
+            <summary>
+              <span class="acc-label">Identidad visual</span>
+              <span class="acc-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="acc-body">
+              <p class="acc-client">Club Atlético y Social Altamira</p>
+              <p class="acc-desc">Diseño de logotipo e identidad visual para club atlético.</p>
+            </div>
+          </details>
+
+          <details class="acc-item">
+            <summary>
+              <span class="acc-label">Logotipo</span>
+              <span class="acc-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="acc-body">
+              <p class="acc-client">Ar25</p>
+              <p class="acc-desc">Diseño de logotipo para estudio de arquitectura.</p>
+            </div>
+          </details>
+
+          <details class="acc-item">
+            <summary>
+              <span class="acc-label">Dirección creativa</span>
+              <span class="acc-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="acc-body">
+              <p class="acc-client">Made In Mate</p>
+              <p class="acc-desc">Publicidad lanzamiento de productos.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+<div class="hb-col">
+        <h2 class="hb-title">educación</h2>
+        <div class="edu-cards">
+          <div class="edu-card edu-card--1">
+            <img src="assets/img/educacion/educacion-1.png" alt="Bachiller en Ciencias Sociales — Instituto Humboldt, Necochea (2023-2026)" />
+          </div>
+          <div class="edu-card edu-card--2">
+            <img src="assets/img/educacion/educacion-2.png" alt="Licenciatura en Diseño Multimedia y de Interacción — UADE (2023-2026)" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="section" id="audiovisuales" data-section-title="audiovisuales">
+    
+    <div class="sticky-header">
+    <header class="sec-header">
+      <nav class="breadcrumbs">
+        <a href="#" onclick="goHome(); return false;">home</a>
+        <span class="bc-sep">&gt;</span>
+        <span class="bc-current">audiovisuales</span>
+      </nav>
+    </header>
+
+<div class="project-menu" data-state="expanded">
+      <button class="project-row" data-project="videoclip">
+        <span class="pr-num">01_</span>
+        <span class="pr-chip">VIDEOCLIP</span>
+        <span class="pr-line"></span>
+      </button>
+      <button class="project-row" data-project="cortometraje">
+        <span class="pr-num">02_</span>
+        <span class="pr-chip">CORTOMETRAJE</span>
+        <span class="pr-line"></span>
+      </button>
+      
+      <button class="pr-expand" onclick="expandProjectMenu(this); event.stopPropagation();" aria-label="expandir menú">+</button>
+    </div>
+    </div>
+
+<div class="section-intro">
+      <h1 class="sec-title">audiovisuales<span class="sec-deco" aria-hidden="true">
+        <img src="assets/img/imagenes-titulos/audiovisuales.png" alt="" />
+      </span></h1>
+      <p class="sec-description">Un archivo de historias en movimiento.  Las ideas, procesos y recorridos que dieron origen a distintas narrativas visuales.</p>
+    </div>
+
+    <div class="project-content">
+      <article id="proj-videoclip" class="project-block">
+        <div class="proj-layout">
+          <div class="proj-info">
+            <h3 class="proj-name">Team-Lorde (reinterpretación)</h3>
+            <table class="proj-data">
+              <colgroup>
+                <col class="c-label">
+                <col>
+                <col class="c-label">
+                <col class="c-small">
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>proyecto</th>
+                  <td colspan="3">Recreación del videoclip de una canción, a través de la búsqueda de una narrativa argumentada con una estructura de tres actos.</td>
+                </tr>
+                <tr>
+                  <th>temática</th>
+                  <td colspan="3">Juventud/ Adolescencia</td>
+                </tr>
+                <tr>
+                  <th>canción</th>
+                  <td>Team - Lorde</td>
+                  <th>tomas</th>
+                  <td>59</td>
+                </tr>
+                <tr>
+                  <th>rol</th>
+                  <td>Guion/<br>Asistente de dirección</td>
+                  <th>rodaje</th>
+                  <td>3 días</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="proj-video" data-video="k6tGYIqzrAU" data-poster="assets/img/miniatura-team.png">
+            <div class="video-placeholder" style="background-image: url('assets/img/miniatura-team.png');">
+              <button class="play-btn" onclick="playProjectVideo(this)" aria-label="reproducir video"></button>
+            </div>
+          </div>
+
+          <div class="proceso-wrap">
+            <button class="ver-proceso" onclick="openProceso('videoclip')">ver proceso&nbsp;→</button>
+          </div>
+        </div>
+
+<div class="proj-proceso proj-proceso--pages open" id="proceso-videoclip" data-project="videoclip" data-index="0" data-current-slot="0" data-animating="false" aria-hidden="false">
+          <div class="proceso-inner">
+            <button class="proc-close-inline" onclick="closeProcesoInline(this)" aria-label="cerrar proceso">−</button>
+            <div class="proceso-viewer">
+              
+              <div class="proc-spread is-current">
+                <button class="proc-page" onclick="openPageLightbox(this)" aria-label="ampliar página izquierda">
+                  <img src="assets/img/proceso-videoclip/izquierda1.png" alt="proceso, página 1 izquierda" />
+                </button>
+                <button class="proc-page" onclick="openPageLightbox(this)" aria-label="ampliar página derecha">
+                  <img src="assets/img/proceso-videoclip/derecha1.png" alt="proceso, página 1 derecha" />
+                </button>
+              </div>
+              
+              <div class="proc-spread">
+                <button class="proc-page" onclick="openPageLightbox(this)" aria-label="ampliar página izquierda"><img alt="" /></button>
+                <button class="proc-page" onclick="openPageLightbox(this)" aria-label="ampliar página derecha"><img alt="" /></button>
+              </div>
+            </div>
+            <div class="proc-nav">
+              <button class="proc-arrow proc-prev" onclick="procPrev(this)" aria-label="anterior">←</button>
+              <span class="proc-counter">1 / 2</span>
+              <button class="proc-arrow proc-next" onclick="procNext(this)" aria-label="siguiente">→</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="proj-cortometraje" class="project-block proj-block--mirror">
+        <div class="proj-layout">
+          <div class="proj-info">
+            <h3 class="proj-name">“Un día de m*****”</h3>
+            <table class="proj-data">
+              <colgroup>
+                <col class="c-label">
+                <col>
+                <col class="c-label">
+                <col class="c-small">
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>proyecto</th>
+                  <td colspan="3">Creación integral de una productora audiovisual y desarrollo completo de un cortometraje. Incluyendo y estrategia de difusión en festivales.</td>
+                </tr>
+                <tr>
+                  <th>temática</th>
+                  <td colspan="3">Familia / Conflictos / Prejuicios</td>
+                </tr>
+                <tr>
+                  <th>género</th>
+                  <td>Comedia dramática</td>
+                  <th>rol</th>
+                  <td>Guion</td>
+                </tr>
+                <tr>
+                  <th>ejecución</th>
+                  <td>Vitra Producciones</td>
+                  <th>rodaje</th>
+                  <td>2 días</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="proj-video" data-video="KmNlPeEYduA" data-poster="assets/img/miniatura-corto.png">
+            <div class="video-placeholder" style="background-image: url('assets/img/miniatura-corto.png');">
+              <button class="play-btn" onclick="playProjectVideo(this)" aria-label="reproducir video"></button>
+            </div>
+          </div>
+
+          <div class="proceso-wrap">
+            <button class="ver-proceso" onclick="openProceso('cortometraje')">ver proceso&nbsp;→</button>
+          </div>
+        </div>
+
+<div class="proj-folder" id="proceso-cortometraje" data-project="cortometraje" data-folder-state="cover" aria-hidden="false">
+          
+          <button class="folder-cover-img" onclick="openFolder(this)" aria-label="abrir carpeta VITRA">
+            <img src="assets/img/proceso-corto/cuaderno-cerrado.png" alt="carpeta VITRA Producciones cerrada" />
+          </button>
+          
+          <div class="folder-interior">
+            <button class="folder-close" onclick="closeFolder(this)" aria-label="cerrar carpeta">−</button>
+            <img class="folder-open-img" src="assets/img/proceso-corto/abierto.png" alt="carpeta VITRA Producciones abierta con materiales del proceso" />
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="ux" data-section-title="diseño ux/ui">
+    <div class="sticky-header">
+      <header class="sec-header">
+        <nav class="breadcrumbs">
+          <a href="#" onclick="goHome(); return false;">home</a>
+          <span class="bc-sep">&gt;</span>
+          <span class="bc-current">diseño ux/ui</span>
+        </nav>
+      </header>
+
+<div class="project-menu" data-state="expanded">
+        <button class="project-row" data-project="sitio">
+          <span class="pr-num">01_</span>
+          <span class="pr-chip">SITIO WEB</span>
+          <span class="pr-line"></span>
+        </button>
+        <button class="project-row" data-project="app">
+          <span class="pr-num">02_</span>
+          <span class="pr-chip">APP</span>
+          <span class="pr-line"></span>
+        </button>
+        <button class="pr-expand" onclick="expandProjectMenu(this); event.stopPropagation();" aria-label="expandir menú">+</button>
+      </div>
+    </div>
+
+    <div class="section-intro">
+      <h1 class="sec-title">diseño ux/ui<span class="sec-deco" aria-hidden="true">
+        <img src="assets/img/decoración-ux.png" alt="" />
+      </span></h1>
+      <p class="sec-description">Detrás de cada interfaz existe una serie de preguntas, pruebas y decisiones. Esta sección reúne proyectos donde la investigación y el diseño trabajan en conjunto para construir experiencias digitales.</p>
+    </div>
+
+    <div class="project-content">
+      
+      <article id="proj-sitio" class="project-block proj-cocina">
+        <div class="proj-layout">
+          <div class="proj-info">
+            <h3 class="proj-name">Cocina Clara</h3>
+            <table class="proj-data">
+              <colgroup>
+                <col class="c-label">
+                <col>
+                <col class="c-label">
+                <col class="c-small">
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>proyecto</th>
+                  <td colspan="3">Prototipado de un sitio web que combine temáticas apuntadas a un público de nicho, adaptando sus decisiones de diseño, interfaz e interactividad.</td>
+                </tr>
+                <tr>
+                  <th>temática</th>
+                  <td colspan="3">Cocina rápida y sin desperdicios / Neurodivergencia</td>
+                </tr>
+                <tr>
+                  <th>ejecución</th>
+                  <td colspan="3">Home page, secciones y micrositio</td>
+                </tr>
+                <tr>
+                  <th>tecnología</th>
+                  <td>Figma</td>
+                  <th>formato</th>
+                  <td>Desktop y mobile</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p class="proto-hint"><em>Scrollea sobre la pantalla para ver el prototipo completo.</em></p>
+
+            <div class="proto-toggle">
+              <button class="proto-toggle-btn is-active" data-mode="desktop" onclick="setProtoMode(this, 'desktop')">Desktop</button>
+              <button class="proto-toggle-btn" data-mode="mobile" onclick="setProtoMode(this, 'mobile')">Mobile</button>
+            </div>
+          </div>
+
+          <div class="proj-proto">
+            
+            <div class="proto-stage proto-stage--desktop is-visible" data-mode="desktop">
+              <div class="proto-screen">
+                <iframe class="proto-iframe" src="https://embed.figma.com/proto/UHZlrxXy0qm4mmknwtspa1/Porfolio?node-id=1146-1846&starting-point-node-id=1146%3A1846&page-id=1146%3A1845&scaling=min-zoom&content-scaling=fixed&embed-host=share&hide-ui=1" allowfullscreen></iframe>
+                <div class="proto-overlay">
+                  <button class="proto-activate" onclick="activateProto(this)">iniciar prototipo →</button>
+                </div>
+              </div>
+              <img class="proto-frame" src="assets/img/mockup-desktop.png" alt="mockup laptop" />
+            </div>
+
+<div class="proto-stage proto-stage--mobile" data-mode="mobile">
+              <div class="proto-screen">
+                <iframe class="proto-iframe" src="https://embed.figma.com/proto/UHZlrxXy0qm4mmknwtspa1/Porfolio?node-id=1292-292&starting-point-node-id=1292%3A292&page-id=1146%3A2155&scaling=min-zoom&content-scaling=fixed&embed-host=share&hide-ui=1" allowfullscreen></iframe>
+                <div class="proto-overlay">
+                  <button class="proto-activate" onclick="activateProto(this)">iniciar prototipo →</button>
+                </div>
+              </div>
+              <img class="proto-frame" src="assets/img/mockup-mobile.png" alt="mockup iPhone" />
+            </div>
+          </div>
+        </div>
+
+<div class="proj-hojas" data-state="stacked" aria-label="hojas del proceso de diseño">
+          <div class="hojas-stage">
+            <div class="hoja" data-idx="0">
+              <img src="assets/img/hojas-proceso-web/hojas-proceso-web (1).png" alt="isologo & isotipo" />
+            </div>
+            <div class="hoja" data-idx="1">
+              <img src="assets/img/hojas-proceso-web/hojas-proceso-web (2).png" alt="sistema ux" />
+            </div>
+            <div class="hoja" data-idx="2">
+              <img src="assets/img/hojas-proceso-web/hojas-proceso-web (3).png" alt="paleta de colores" />
+            </div>
+            <div class="hoja" data-idx="3">
+              <img src="assets/img/hojas-proceso-web/hojas-proceso-web (4).png" alt="sistema gráfico" />
+            </div>
+          </div>
+        </div>
+      </article>
+
+<article id="proj-app" class="project-block">
+        <h3 class="proj-name">Aspectoretro</h3>
+        <div class="project-placeholder">— próximamente —</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="editorial" data-section-title="diseño editorial">
+    <div class="sticky-header">
+      <header class="sec-header">
+        <nav class="breadcrumbs">
+          <a href="#" onclick="goHome(); return false;">home</a>
+          <span class="bc-sep">&gt;</span>
+          <span class="bc-current">diseño editorial</span>
+        </nav>
+      </header>
+
+<div class="project-menu" data-state="expanded">
+        <button class="project-row" data-project="libro">
+          <span class="pr-num">01_</span>
+          <span class="pr-chip">LIBRO</span>
+          <span class="pr-line"></span>
+        </button>
+        <button class="project-row" data-project="programa">
+          <span class="pr-num">02_</span>
+          <span class="pr-chip">PROGRAMA TIPOGRÁFICO</span>
+          <span class="pr-line"></span>
+        </button>
+        <button class="pr-expand" onclick="expandProjectMenu(this); event.stopPropagation();" aria-label="expandir menú">+</button>
+      </div>
+    </div>
+
+    <div class="section-intro">
+      <h1 class="sec-title">diseño editorial<span class="sec-deco" aria-hidden="true">
+        <img src="assets/img/imagenes-titulos/editorial.png" alt="" />
+      </span></h1>
+      <p class="sec-description">Historias, conceptos e investigaciones convertidos en publicaciones. Cada proyecto explora formas de ordenar, conectar y comunicar contenidos a través de ejemplares pensados desde la estructura y el detalle.</p>
+    </div>
+
+    <div class="project-content">
+      <article id="proj-libro" class="project-block proj-libro">
+        <h3 class="proj-name">Colección <em>Versos Paralelos</em> — Tomo I "Universos Internos"</h3>
+
+        <div class="libro-header">
+          <table class="proj-data libro-main-data">
+            <colgroup>
+              <col class="c-label">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <th>proyecto</th>
+                <td>Desarrollo de colección de libros que combinen dos tópicos particulares con producción y armado manual de los mismos.</td>
+              </tr>
+              <tr>
+                <th>temática</th>
+                <td>Poesía y Multiversos</td>
+              </tr>
+              <tr>
+                <th>formato</th>
+                <td>A5, tapa dura</td>
+              </tr>
+              <tr>
+                <th>volúmenes</th>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="libro-tapa-card">
+            <img class="libro-tapa-img" src="assets/img/libro-editorial/tapa.png" alt="Tapa Universos Internos" data-pieza="Tapa" data-tomo="1" />
+            <table class="proj-data libro-mini-data">
+              <tbody>
+                <tr><th>pieza</th><td>Tapa</td></tr>
+                <tr><th>tomo</th><td>1</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="libro-tapa-card">
+            <img class="libro-tapa-img" src="assets/img/libro-editorial/tapa tomo 2.png" alt="Tapa Mundos Fragmentados" data-pieza="Tapa" data-tomo="2" />
+            <table class="proj-data libro-mini-data">
+              <tbody>
+                <tr><th>pieza</th><td>Tapa</td></tr>
+                <tr><th>tomo</th><td>2</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="libro-tapa-card">
+            <img class="libro-tapa-img" src="assets/img/libro-editorial/tapa tomo 3.png" alt="Tapa Tiempos Cruzados" data-pieza="Tapa" data-tomo="3" />
+            <table class="proj-data libro-mini-data">
+              <tbody>
+                <tr><th>pieza</th><td>Tapa</td></tr>
+                <tr><th>tomo</th><td>3</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+<div class="libro-carousel" aria-label="piezas internas del libro">
+          <button class="carousel-nav carousel-prev" aria-label="anterior">←</button>
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <div class="carousel-item" data-pieza="legales y portada">
+                <img src="assets/img/libro-editorial/legales y portada.png" alt="legales y portada" />
+              </div>
+              <div class="carousel-item" data-pieza="guardas">
+                <img src="assets/img/libro-editorial/guardas.png" alt="guardas" />
+              </div>
+              <div class="carousel-item" data-pieza="índice">
+                <img src="assets/img/libro-editorial/índice.png" alt="índice" />
+              </div>
+              <div class="carousel-item" data-pieza="entrada de capítulo">
+                <img src="assets/img/libro-editorial/entrada de capítulo.png" alt="entrada de capítulo" />
+              </div>
+              <div class="carousel-item" data-pieza="doble página">
+                <img src="assets/img/libro-editorial/doblepágina (2).png" alt="doble página" />
+              </div>
+              <div class="carousel-item" data-pieza="doble página">
+                <img src="assets/img/libro-editorial/doblepágina (3).png" alt="doble página" />
+              </div>
+              <div class="carousel-item" data-pieza="doble página">
+                <img src="assets/img/libro-editorial/doblepágina (4).png" alt="doble página" />
+              </div>
+              <div class="carousel-item" data-pieza="doble página">
+                <img src="assets/img/libro-editorial/doblepágina (5).png" alt="doble página" />
+              </div>
+            </div>
+          </div>
+          <button class="carousel-nav carousel-next" aria-label="siguiente">→</button>
+
+          <table class="proj-data carousel-label">
+            <colgroup>
+              <col class="c-label">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <th>pieza</th>
+                <td class="js-pieza-label">legales y portada</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="carousel-hint">click sobre el prototipo para ver más grande</p>
+        </div>
+      </article>
+      <article id="proj-programa" class="project-block">
+        <h3 class="proj-name">Programa tipográfico</h3>
+        <div class="project-placeholder">— próximamente —</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="archivo" data-section-title="archivo experimental">
+    <div class="sticky-header">
+      <header class="sec-header">
+        <nav class="breadcrumbs">
+          <a href="#" onclick="goHome(); return false;">home</a>
+          <span class="bc-sep">&gt;</span>
+          <span class="bc-current">archivo experimental</span>
+        </nav>
+      </header>
+    </div>
+
+    <div class="section-intro">
+      <h1 class="sec-title">archivo experimental<span class="sec-deco" aria-hidden="true">
+        <img src="assets/img/imagenes-titulos/archivoexp.png" alt="" />
+      </span></h1>
+      <p class="sec-description">Esta sección reúne exploraciones en distintos medios y formatos, entendiendo cada prueba como una posibilidad de aprender, conectar conocimientos y expandir las herramientas con las que diseño.</p>
+    </div>
+
+<div class="archivo-content">
+
+<section class="arch-block" aria-label="animaciones">
+        <h2 class="arch-label">Animaciones</h2>
+        <div class="arch-grid arch-grid--anim">
+          
+          <article class="arch-card arch-card--video" data-video="ohzs0Am6Okk" data-title="Video publicitario / Motion Graphics">
+            <div class="arch-media">
+              <button class="arch-play" onclick="playArchiveVideo(this)" aria-label="reproducir motion graphics">
+                <span class="arch-play-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="arch-meta">
+              <span class="arch-meta-tag">proyecto</span>
+              <span class="arch-meta-label">Video publicitario<br>Motion Graphics</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+<section class="arch-block" aria-label="fotografía">
+        <h2 class="arch-label">Fotografía</h2>
+        <div class="arch-grid arch-grid--photo" data-expanded="false">
+          
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/calle.JPG" alt="ciudad — Plaza Mayor Madrid" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">ciudad</span></div>
+          </article>
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/edificio (1).JPG" alt="edificio — Sagrada Familia" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">edificio</span></div>
+          </article>
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_3007.JPG" alt="monumento — Marco Minghetti Roma" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">monumento</span></div>
+          </article>
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_2887.JPG" alt="calle — zona residencial" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">calle</span></div>
+          </article>
+
+<article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/edificio.JPG" alt="edificio — Arco del Triunfo Barcelona" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">edificio</span></div>
+          </article>
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_2820.JPG" alt="ciudad — Parque del Retiro" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">ciudad</span></div>
+          </article>
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_3046.JPG" alt="monumento — Arco de Constantino" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">monumento</span></div>
+          </article>
+          <article class="arch-card arch-card--photo" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_3079.JPG" alt="edificio — Battisterio Florencia" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">edificio</span></div>
+          </article>
+
+<article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/calle (2).JPG" alt="calle" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">calle</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/edificio (2).JPG" alt="edificio" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">edificio</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_3045.JPG" alt="monumento" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">monumento</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_2892.JPG" alt="paisaje" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">paisaje</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/edificio (3).JPG" alt="edificio" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">edificio</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_2944.JPG" alt="detalle" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">detalle</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/100_3070.JPG" alt="paisaje" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">paisaje</span></div>
+          </article>
+          <article class="arch-card arch-card--photo arch-card--extra" onclick="openPageLightbox(this)">
+            <div class="arch-media"><img src="assets/img/fotografía/edificio (4).JPG" alt="edificio" /></div>
+            <div class="arch-meta"><span class="arch-meta-tag">imágen</span><span class="arch-meta-label">edificio</span></div>
+          </article>
+        </div>
+
+<button class="arch-expand" onclick="toggleArchExpand(this)" aria-label="ver más fotos">+</button>
+      </section>
+
+    </div>
+  </section>
+</main>
+
+<div class="page-lightbox" id="page-lightbox" aria-hidden="true" onclick="if(event.target===this) closePageLightbox()">
+  <button class="page-lightbox-close" onclick="closePageLightbox()" aria-label="cerrar">×</button>
+  <img class="page-lightbox-img" src="" alt="" />
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

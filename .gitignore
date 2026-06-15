@@ -1,0 +1,26 @@
+# OS
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Config Claude Code (no se sube)
+.claude/
+
+# Archivos viejos / backups
+index-old.html
+*.bak
+*.tmp
+
+# Node (por si alguien instala algo en el futuro)
+node_modules/
+package-lock.json
+
+# Videos pesados — embebidos desde YouTube/Vimeo en lugar de servidos desde el repo
+assets/videos/
