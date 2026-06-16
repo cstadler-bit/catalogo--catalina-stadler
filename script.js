@@ -417,9 +417,6 @@ function playProjectVideo(btn) {
   iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
   iframe.allowFullscreen = true;
   iframe.setAttribute('frameborder', '0');
-  iframe.style.width  = '100%';
-  iframe.style.height = '100%';
-  iframe.style.border = 'none';
 
   const placeholder = wrap.querySelector('.video-placeholder');
   if (placeholder) placeholder.replaceWith(iframe);
@@ -550,9 +547,6 @@ function playArchiveVideo(btn) {
   iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
   iframe.allowFullscreen = true;
   iframe.setAttribute('frameborder', '0');
-  iframe.style.width  = '100%';
-  iframe.style.height = '100%';
-  iframe.style.border = 'none';
 
   mediaWrap.innerHTML = '';
   mediaWrap.appendChild(iframe);
